@@ -3,9 +3,7 @@ on:
   schedule:
     - cron: "0 0 * * *"
   # Manual triggers with workflow_dispatch
-  push:
-    branches: 
-      - master
+  workflow_dispatch:
 jobs:
   update-gist:
     runs-on: ubuntu-latest
