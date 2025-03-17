@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: "0 0 * * *"
   # Manual triggers with workflow_dispatch
-    push:
+  push:
     branches: 
       - master
 jobs:
