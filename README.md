@@ -21,6 +21,7 @@
 ### Project setup
 
 1. Fork this repo
+2. Open the "Actions" tab of your fork and click the "enable" button
 1. Go to the repo **Settings > Secrets**
 1. Add the following environment variables:
    - **GIST_ID:** The ID portion from your gist url: `https://gist.github.com/matchai/`**`6d5f84419863089a167387da62dd7081`**.
